@@ -1,0 +1,29 @@
+.video {
+
+
+
+    &__container {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .video__title {
+
+            font-size: 5rem;
+            color: white;
+
+
+        }
+
+        .video__error {
+
+
+            svg {
+                color: white;
+                width: 15rem;
+                height: 15rem;
+            }
+        }
+    }
+}
